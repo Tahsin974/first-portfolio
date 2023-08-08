@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.greenish {
+    color: rgb(107, 163, 22);
+}
+
+section {
+    display: flex;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.half-width {
+    padding-left: 5%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(green, lightgreen);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.top-bottom {
+    background-image: url(234.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
