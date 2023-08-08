@@ -17,11 +17,13 @@ section {
 
 .half-width img {
     width: 70%;
+    padding-top: 30px;
 }
 
 .half-width {
     padding-left: 5%;
-
+    padding-bottom: 5%;
+    color: aliceblue;
 }
 
 .link-button {
@@ -33,7 +35,14 @@ section {
 }
 
 .top-bottom {
-    background-image: url(234.jpg);
+    background-image: url(342.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.future {
+    background-image: url(69.webp);
     background-repeat: no-repeat;
     background-size: 100%;
 }
