@@ -1,17 +1,22 @@
 body {
     font-family: 'Roboto Slab', serif;
     margin: 0%;
+    background-image: url(560.jpeg);
+
+    background-position: center;
 }
 
 h1 {
     font-size: 50px;
+    padding-left: 5%;
+    color: aliceblue;
 }
 
 .greenish {
     color: rgb(107, 163, 22);
 }
 
-section {
+.flex-container {
     display: flex;
 }
 
@@ -26,6 +31,29 @@ section {
     color: aliceblue;
 }
 
+.Experience-Item {
+    /* box-shadow: 10px 10px 50px grey; */
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: aliceblue;
+    border: 1px solid gray;
+
+}
+
+.Experience-Item:hover {
+    box-shadow: 10px 10px 50px grey;
+    /* width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: aliceblue;
+    cursor: pointer; */
+}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(green, lightgreen);
@@ -35,14 +63,27 @@ section {
 }
 
 .top-bottom {
-    background-image: url(342.webp);
-    background-repeat: no-repeat;
+    /* background-image: url(342.webp);
+    background-repeat: no-repeat; */
     background-size: 100%;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .future {
-    background-image: url(69.webp);
-    background-repeat: no-repeat;
+    /* background-image: url(560.jpeg);
+    background-repeat: no-repeat; */
     background-size: 100%;
+    border-radius: 10px;
+}
+
+.Experience {
+    /* background-image: url(560.jpeg);
+    background-repeat: no-repeat; */
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
 }
